@@ -1,8 +1,6 @@
 body {
     background-color: antiquewhite;
     background-image: url(obrázky/image6.jpeg);
-    background-repeat: no-repeat;
-    background-size: 320px 100%;
     color: black;
     font-size: 30px;
     line-height: 45px;
@@ -12,9 +10,6 @@ body {
     overflow: auto;
  
   }   
-
-
-
 a {
     color:  rgb(3, 80, 43);
 }
@@ -33,7 +28,7 @@ h1 {
 }
 .Pozadi {
     float: right;
-
+    scroll-snap-align: proximity;
     
 
 }
