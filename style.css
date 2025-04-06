@@ -1,8 +1,7 @@
 body {
     background-color: antiquewhite;
-    background-image: url(obrázky/image6.jpeg);
     background-repeat: no-repeat;
-    background-size: 320px 100%;
+    background-size: 15%;
     color: black;
     font-size: 30px;
     line-height: 45px;
@@ -11,8 +10,16 @@ body {
     text-align: center;
     overflow: auto;
  
-  }   
+}   
+.pozadi {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 15%;
+    height: auto;
+    z-index: 10;
 
+}
 
 
 a {
@@ -31,24 +38,19 @@ h1 {
         15px 15px 0px rgb(84, 20, 20);
 
 }
-.Pozadi {
-    float: right;
-    
-
-}
 .Profilove-foto {
+    position: absolute;
     float: left;
-    border-radius: 50%;
-    width: 400px;  
+    width: 20%;  
     border-radius: 50%;
     border: 15px solid antiquewhite;
     margin-left: 5%;
     padding: 0;
     margin-right: 0;
     margin-bottom: 0px;
-    margin-top: -600px;
     overflow: auto;
-    
+    z-index: 20;
+
 
 }
 
